@@ -1,0 +1,17 @@
+POST localhost:5779/post
+Content-Type: application/json
+
+{
+  "id": 1
+}
+###
+GET localhost:5779/file
+Content-Type: application/json
+
+{
+  "type": "files.pdf",
+  "firstName": "bulat",
+  "lastName": "tuhvatullin"
+}
+###
+
